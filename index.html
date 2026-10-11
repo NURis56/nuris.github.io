@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Marks JS availability before first paint: .reveal elements are only hidden when JS runs -->
+  <script>document.documentElement.classList.add('js')</script>
+
+  <title>Nurislam — Computer Science &amp; Engineering Student</title>
+  <meta name="description" content="Nurislam — ninth-grade student at БИЛ (Bilim-Innovation Lyceum), Astana. Computer science, AI and engineering, competitive programming. Projects, skills, contact.">
+  <meta name="theme-color" content="#FAF9F5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141412" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- EDIT: [SITE_URL] and [OG_IMAGE_URL] before deploying (image should be 1200×630) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nurislam — Computer Science &amp; Engineering Student">
+  <meta property="og:description" content="Ninth-grade student at БИЛ, Astana. Computer science, AI and engineering, competitive programming.">
+  <meta property="og:url" content="[SITE_URL]">
+  <meta property="og:image" content="[OG_IMAGE_URL]">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Back to top">N<span class="accent">.</span></a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero wrap" id="top" aria-label="Introduction">
+      <div>
+        <p class="label reveal">Astana, Kazakhstan · <span lang="kk">БИЛ</span></p>
+        <h1 class="reveal" style="--d:1">Nurislam<span class="accent">.</span></h1>
+        <!-- No university-major claims — interests only -->
+        <p class="hero-lede reveal" style="--d:2">
+          Into computer science, AI and engineering — competitive programmer,
+          entering the IB Diploma Programme, aiming to study abroad.
+        </p>
+        <div class="hero-actions reveal" style="--d:3">
+          <a class="btn btn-solid" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <dl class="hero-facts reveal" style="--d:4">
+        <div><dt class="label">Focus</dt><dd>CS &amp; engineering</dd></div>
+        <div><dt class="label">Now</dt><dd>Grade 9 · entering the IB Diploma Programme</dd></div>
+        <div><dt class="label">GPA</dt><dd>4.7</dd></div>
+      </dl>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section wrap" id="about" aria-labelledby="about-title">
+      <div class="grid">
+        <header class="section-head reveal">
+          <span class="label index">01</span>
+          <h2 id="about-title">About</h2>
+        </header>
+        <div class="section-body reveal">
+          <p>I'm Nurislam, a ninth-grader at <span lang="kk">Білім-Инновациялық Лицей</span> (БИЛ) in Astana, about to start the IB Diploma Programme. I grew up in Shymkent and moved to Astana in 2024.</p>
+          <p>Most of my time goes into computer science — AI most of all — and competitive programming. Away from the screen I edit video: I cut our school film <em>#nuris_absolute</em>, and I volunteer with the Lumiere team.</p>
+          <p>I'm fluent in Russian and Kazakh, study in English, and I'm just starting Chinese.</p>
+          <p>The idea I keep coming back to: where you're born shouldn't decide your future. That's what Bagdar AI is about — students in any region should get the same guidance and chances as everyone else.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="grid">
+        <header class="section-head reveal">
+          <span class="label index">02</span>
+          <h2 id="projects-title">Projects</h2>
+        </header>
+        <div class="section-body">
+          <ul class="projects">
+            <li class="reveal">
+              <a class="project" href="https://lucky-paletas-c7a903.netlify.app/" rel="noopener">
+                <span class="p-index mono" aria-hidden="true">01</span>
+                <div class="p-body">
+                  <h3>Bagdar AI</h3>
+                  <p>Kazakhstani school students have little free, structured guidance on applying to universities abroad, so the site gives them a single place to start.</p>
+                  <!-- EDIT: name the actual frameworks when you know them (e.g. React · FastAPI) -->
+                  <span class="p-meta mono">Web app · frontend + AI backend · Netlify</span>
+                </div>
+                <span class="p-arrow" aria-hidden="true">
+                  <svg class="arrow" width="16" height="16" viewBox="0 0 16 16"><path d="M4.5 11.5 11.5 4.5M5.5 4.5h6v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </a>
+            </li>
+            <li class="reveal">
+              <!-- EDIT: no link yet — when you push the repo, replace the <div> with an <a> like Project 1 -->
+              <div class="project">
+                <span class="p-index mono" aria-hidden="true">02</span>
+                <div class="p-body">
+                  <h3>CitySOS</h3>
+                  <p>Emergency incidents in Astana are slow to report and hard to track, so it uses AI to turn citizen reports into structured incident records on a map. Built for SmartScape Hackathon 2026.</p>
+                  <span class="p-meta mono">Python · Streamlit · Folium · SQLite</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!-- EDIT: [GITHUB_USERNAME] -->
+          <p class="after-note mono reveal">More on <a class="text-link" href="https://github.com/NURis56" rel="noopener">GitHub</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS & LANGUAGES ================= -->
+    <section class="section wrap" id="skills" aria-labelledby="skills-title">
+      <div class="grid">
+        <header class="section-head reveal">
+          <span class="label index">03</span>
+          <h2 id="skills-title">Skills &amp; languages</h2>
+        </header>
+        <div class="section-body reveal">
+          <dl class="skills">
+            <div>
+              <dt class="label">Languages I speak</dt>
+              <dd>Russian — fluent · Kazakh — fluent · English — B2 · Chinese — beginner</dd>
+            </div>
+            <div>
+              <dt class="label">Programming</dt>
+              <dd>Codeforces — 1100 rating · Python</dd>
+            </div>
+            <div>
+              <dt class="label">Video editing</dt>
+              <dd>Cut the school film #nuris_absolute</dd>
+            </div>
+            <div>
+              <dt class="label">Tools</dt>
+              <dd>AI as a working tool — for drafting, feedback, and as the engine of my projects</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION & ACHIEVEMENTS ================= -->
+    <section class="section wrap" id="education" aria-labelledby="education-title">
+      <div class="grid">
+        <header class="section-head reveal">
+          <span class="label index">04</span>
+          <h2 id="education-title">Education &amp; achievements</h2>
+        </header>
+        <div class="section-body">
+          <ol class="timeline">
+            <li class="reveal">
+              <span class="t-year mono">2024 — present</span>
+              <div>
+                <h3><span lang="kk">Білім-Инновациялық Лицей</span> (БИЛ), Astana</h3>
+                <p>Grade 9 · entering the IB Diploma Programme · GPA 4.7</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="t-year mono">Before 2024</span>
+              <div>
+                <h3>Eleven schools across Kazakhstan</h3>
+                <p>Changed 11 schools before 6th grade — mainly in Shymkent, with time in Oral — before settling in Astana.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <!-- EDIT: add the year — or delete this entry -->
+              <span class="t-year mono">[Year]</span>
+              <div>
+                <h3>Editor, school film <em>#nuris_absolute</em></h3>
+                <p>Also organized the school's March 8 concert and volunteer with the Lumiere team.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section wrap" id="contact" aria-labelledby="contact-title">
+      <div class="grid">
+        <header class="section-head reveal">
+          <span class="label index">05</span>
+          <h2 id="contact-title">Contact</h2>
+        </header>
+        <div class="section-body reveal">
+          <p class="contact-lede">For summer program applications or anything else — email works best.</p>
+          <ul class="contact-list">
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:naruroboy46@gmail.com">naruroboy46@gmail.com</a>
+            </li>
+            <li>
+              <span class="label">GitHub</span>
+              <a href="https://github.com/NURis56" rel="noopener">github.com/NURis56</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner mono">
+      <span>© <span id="year">2026</span> Nurislam</span>
+      <span>Astana, Kazakhstan</span>
+      <a class="text-link" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
